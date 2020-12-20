@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <include name="android-11.0.0_r18.xml"/>
-  <remote fetch="https://github.com/allthingsembedded" name="allthingsembedded" review="https://review.gerrithub.io/allthingsembedded/"/>
+  <remote fetch="https://github.com" name="github" review="https://review.gerrithub.io"/>
 
-  <project name="device_allthingsembedded_emulator" path="device/allthingsembedded/emulator" remote="allthingsembedded" revision="main"/>
-  <project name="vendor_allthingsembedded_emulator" path="vendor/allthingsembedded/emulator" remote="allthingsembedded" revision="main"/>
+  <project name="allthingsembedded/device_allthingsembedded_emulator" path="device/allthingsembedded/emulator" remote="github" revision="main"/>
+  <project name="allthingsembedded/vendor_allthingsembedded_emulator" path="vendor/allthingsembedded/emulator" remote="github" revision="main"/>
 
 </manifest>
